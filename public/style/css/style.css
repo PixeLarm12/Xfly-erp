@@ -1,0 +1,43 @@
+.scrollspySite {
+    position: relative;
+    overflow: auto;
+    height: 150px;
+}
+footer {
+    position: fixed;
+    height: 35px;
+    bottom: 0;
+    width: 100%;
+}
+
+.box1{
+    display:flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+.box{
+    display:flex; 
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+#progress {
+    background: transparent;
+    transition: border 0.2s;
+    border-radius: 10px;
+    font-size: 12px;
+    font-style: oblique;
+    color: #fff;
+}
+#progress div {
+    background: transparent;
+    transition: background 0.2s;
+}
+/*# sourceMappingURL=style.css.map */
